@@ -38,7 +38,7 @@ class SogiSB(commands.Cog):
 
 @bot.event
 async def on_ready():
-    print('{0} Joined the party!'.format(bot.user))
+    print(f'{bot.user} Joined the party!')
 
   
 def setup(bot):
